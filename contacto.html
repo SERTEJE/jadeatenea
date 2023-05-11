@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/Jade Cumple.jpg" class= "mifoto"></h1>
+            </div>
+        </header>
+        <main>
+            <form action="mailto:sergiteje21@gmail.com" method="post" enctype="text/plain">
+
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" class="input-padron" required><br>
+                
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" class="input-padron" required placeholder="(XXX) XXXX XXXX"><br>
+
+                <label for="mensaje">Enviame un Mensaje</label>
+                <textarea  name="mensaje" cols="70" rows="10" class="input-padron" required></textarea><br>
+                              
+                <input type="submit" value="Confirmo presencia a tu cumple" class="enviar">
+                
+            </form>
+            <br>
+            <br>
+            <section>
+                <a href="index.html" class="volver">Volver</a>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">&copy Copyright T E J E - 2023</p>
+        </footer>
+    </body>
+</html>
